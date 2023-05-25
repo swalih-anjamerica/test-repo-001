@@ -1,5 +1,6 @@
 export const handler = async (event) => {
     console.log("Test action added");
+    console.log("New Value added")
     // TODO implement
     const response = {
         statusCode: 200,
