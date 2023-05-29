@@ -1,5 +1,5 @@
 import { detectImageModerationContent } from './utils/imgModeration.utils.mjs';
-import { updateAladdinDb } from './utils/api.utils.js';
+import { updateAladdinDb } from './utils/api.utils.mjs';
 
 export const handler = async (event, context) => {
     // getting data from the bucket
