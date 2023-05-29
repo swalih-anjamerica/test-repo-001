@@ -20,6 +20,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: npm install and build
         run: npm ci
+        working-directory: test 
         env:
           CI: true
       - name: zip
