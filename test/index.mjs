@@ -15,5 +15,6 @@ export const handler = async (event, context) => {
     } catch (error) {
         // error handling.
         console.log(error)
+        
     }
 };
