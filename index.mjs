@@ -14,7 +14,6 @@ export const handler = async (event, context) => {
   const key = decodeURIComponent(event.Records[0].s3.object.key.replace(/\+/g, ' '));
   
   try {
-    
     // const res=await videoModeration(bucket, key)
     const res=await imageModeration(bucket, key);
     console.log(res);
