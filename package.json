@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/swalih-anjamerica/test-repo-001/issues"
   },
-  "homepage": "https://github.com/swalih-anjamerica/test-repo-001#readme"
+  "homepage": "https://github.com/swalih-anjamerica/test-repo-001#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
 }
